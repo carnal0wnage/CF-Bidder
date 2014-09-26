@@ -1,0 +1,1628 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<HTML>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000 LINK=#AA0000 VLINK=#AA0000 ALINK=#0000FF>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Sebastian Arciszewski - Virtual Vendor Inc.">
+   <TITLE>Emaze Auction Software Documentation, Version 2.1</TITLE>
+<STYLE>
+<!--
+A:link, A:visited, A:active
+    {text-decoration: none; color: #AA0000;}
+.area A:link, .area A:visited
+    {text-decoration: none; color: #AA0000;}
+.area A:hover
+    {text-decoration: none; color: #000FFF;}
+.area A:active
+    {text-decoration: none; color: #AA0000;}
+EM
+    {color: #FF6600; font-family: Arial;}
+-->
+</STYLE>
+</HEAD>
+<CENTER>
+<A NAME="TOP">
+<FONT FACE=ARIAL SIZE=+1><B>Emaze Auction Software Documentation Version 2.1</B></FONT>
+<BR>
+<CENTER>
+<TABLE CELLSPACING=1 CELLPADDING=3 BORDER=0 WIDTH=100% BGCOLOR=#333333>
+
+
+<!-- START WELCOME SECTION -->
+
+
+<TR BGCOLOR=#333333>
+<TD COLSPAN=3 ALIGN=MIDDLE>
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Welcome</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF> 
+<TD COLSPAN=3>
+<FONT FACE=ARIAL SIZE=-1>
+<B><FONT SIZE=+1>W</FONT></B>elcome to Emaze Auction Software. The purpose of the following documentation is to enable ease of 
+use in the installation, and management of your auction website. You can quickly access any of the topics from the menu below
+or use the <A HREF="javascript:openALPHANAVBAR()">Alphabetical List Of Contents Pop Up Menu</A>.
+Each section of this help documentation is also lined with hyperlinks to create ease of
+use and allow you to quickly navigate through the help section learning about each aspect of the software.
+</FONT>
+</TD>
+</TR>
+
+
+<!-- END WELCOME SECTION -->
+
+
+<!-- START LIST OF CONTENTS SECTION -->
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=MIDDLE>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B><A HREF="javascript:openALPHANAVBAR()">Click Here For An Alphabetical Listing Of Contents</A></B>
+</DIV>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#333333>
+<TD COLSPAN=3 ALIGN=MIDDLE>
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>List of Contents</B></FONT>
+</TD>
+</TR>
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=MIDDLE> 
+<div align="center">
+<TABLE WIDTH=500>
+<TD ALIGN=MIDDLE BGCOLOR=#CCCCCC WIDTH="250">
+<A NAME="1">
+<FONT FACE=VERDANA SIZE=-1><B>Categories</B></FONT> 
+</TD>
+<TD ALIGN=MIDDLE BGCOLOR=#CCCCCC WIDTH="250">
+<A NAME="2">
+<FONT FACE=VERDANA SIZE=-1><B>System</B></FONT> 
+</TD>
+</TR>
+<TR>
+<TD VALIGN="TOP" ALIGN="left">
+<DIV CLASS="area">
+<UL>
+<FONT FACE=VERDANA SIZE=-1><B>
+ <LI><A HREF="PageOne.html">General Information</A> 
+ <LI><A HREF="PageTwo.html">User Admin Screens</A> 
+ <LI><A HREF="PageThree.html">User Auction Screens</A>  
+ <LI><A HREF="PageFour.html">Options</A>  
+ <LI><A HREF="PageFive.html">System</A>  
+ <LI><A HREF="PageSix.html">Sellers Admin Section</A>  
+ <LI><A HREF="PageSeven.html">Left Side Admin Navigation</A> 
+ <LI><A HREF="PageEight.html">Home Admin Screen</A>
+</B></FONT>
+</UL>
+</DIV>
+</TD>
+<TD BGCOLOR=#FFFFFF>
+<DIV CLASS="area">
+
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-CREATECATEGORY">Create Category</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-TEMPLATES">Templates</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-NAVIGATIONBAR">Navigation Bar</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-PAGETITLES">Page Titles</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-HELPPAGE">Help Page</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-HEADERFOOTERALLPAGES">Header, Footer (All Pages)</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-LOGINTEXTHEADER">Login Header, Text</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-LISTSTATUSMESSAGES">List, Status Messages</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-BIDDINGEMAILS">Bidding Emails</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-CLOSINGEMAILS">Closing Emails</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-DAILYSTATUSEMAILS">Daily Status Emails</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-RESERVEEMAILS">Reserve Emails</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-BIDERRORMESSAGES">Bid Error Messages</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-SYSTEMVARIABLES">System Variables</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-BODYTAGDATETIME">Body tag, date/time</A></B></FONT><BR>
+<LI><FONT FACE=ARIAL SIZE=-1><B><A HREF="#SYSTEM-LOTARCHIVE">Lot Archive</A></B></FONT><BR><BR>
+
+</DIV></TD>
+</TR>
+
+</TABLE>
+
+
+
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-CREATECATEGORY">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Create A Category</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+To create a new category, you must choose a category name, designate which category the new category is a 
+subcategory of, choose a button image, and page logo image, and choose the template to use when displaying that 
+category. You may also enter a description, header, footer, and special message. The description is not currently 
+used, but it was included for you to potentially use on the auction home page or category home page. The header, 
+footer and special message are currently used in the default category template, but you can use them in any 
+template you create as well. 
+<P>
+There are 4 category levels. The new category can be a new category, i.e., a level 1 category, or it can be a 
+sub-category or an existing category. The existing category can be level 1, 2 or 3. To designate the new category 
+as a level 1 category, i.e., it is not a sub-category of an existing category, select "NEW (SEPARATE) CATEGORY" 
+in the sub-category select list. 
+<P>
+The new category name must be unique for that category level. A category name may be used more than once if they 
+are not both level 1 categories or are subcategories of different categories. For instance, both of the following 
+categories are acceptable: 
+<P>
+Computers: Books<BR>
+Fiction: Books 
+<P>
+If the name is not acceptible, Emaze Auction will ask you to choose another name for that category.
+</TD>
+</TR>
+
+<!-- END CREATE CATEGORY
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<!-- BEGIN TEMPLATES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-TEMPLATES">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Templates</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This page serves as the control center for your templates. You can either
+use the default templates that are present, edit the default templates,
+or create new templates which you can later specify to be used in certain lots
+or categories. 
+<P>
+Creating new templates and implementing them is a four step process:
+<P>
+1. Create the template and place it in the EmazeAuction/template/ directory. If the template is not already on the server, you will be given the option of uploading it directly. <BR>
+2. Choose a name for the template and enter the filename. The file must end with ".cfm" . <BR>
+3. Specify whether the template is for the auction home page, category home page, or lot page.<BR> 
+4. Edit the category, lot and/or system to use that template. 
+<P>
+Using the table you can create a new template and then edit it or edit existing ones. 
+You can also choose to delete templates, by choosing them from the 
+most lefthand column titled: "Del" checkboxes, then checking 
+the checkbox directly below the "Delete Template(s)" button. 
+</TD>
+</TR>
+
+<!-- END TEMPLATES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<!-- BEGIN NAVIGATION BAR
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-NAVIGATIONBAR">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Navigation Bar</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+The two form fields on this page contain the navigation links source
+for your auction webpages as well as the Title. You can manipulate
+the source of both these fields to get the desired results for the 
+look, feel, and functionality of your navigation bar. 
+</FONT>
+</TD>
+</TR>
+
+<!-- END NAVIGATION BAR
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<!-- BEGIN PAGE TITLES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-PAGETITLES">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Page Titles</B></FONT>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This page allows you as the admin to determine the titles for all
+the pages that will appear on your auction website. The page
+is listed on the left handside of the table and the current name
+for that page is listed on right hand side in numerous text fields
+which you can edit.
+<P>
+In order to accept any changes you have made on this page you must click on the <B>"Update Page 
+Titles"</B> button.
+</FONT>
+</TD>
+</TR>
+
+<!-- END PAGE TITLES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<!-- BEGIN HELP
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-HELPPAGE">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Help Page</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This section allows you to edit the appearance and contents of the Help page that will 
+be available to users of your auction website. The main form field is the source code
+of the Help page that you can edit to control the look and feel of your Help Page.  
+<P>
+The second section of this page contains the ability to check the feedback that has been left
+about a user, and to view all lots by a seller. View all lots by a seller. Enter their username to get to their
+seller homepage.
+</FONT>
+</TD>
+</TR>
+
+<!-- END HELP
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<!-- HEADER FOOTER ALL PAGES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-HEADERFOOTERALLPAGES">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Header / Footer - All Pages</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+The two fields found on this page, allow you as the admin to add 
+in a header and footer, that will appear above and below everything
+else on all your auction pages. You can use simple text or enhance it
+with HTML and perhaps even include images.
+<P>
+In order to enable the changes or additions that you have made 
+on this page you must click on the <B>"Edit Header/Footer"</B> button 
+found at the bottom of the page.
+</FONT>
+</TD>
+</TR>
+
+<!-- END HEADER FOOTER ALL PAGES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<!-- BEGIN LOGIN TEXT HEADER
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-LOGINTEXTHEADER">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Login Text, Header</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This page allows you to edit various text and various header
+and footer text that will appear on certain pages for the user. 
+<P>
+The first form field titled: <B>"Subscribe to Category Success"</B>
+allows you to edit the text that will appear when a user has
+subscribed to a category.
+<P>
+The second form field titled: <B>"Watch a lot sucess"</B> allows you 
+to edit the text that will appear when a user has successfully 
+subscribed to watch a lot on your auction website. 
+<P>
+The following section of field forms allows you to edit some of
+the text that will appear next to fields when a user is either 
+trying to log in to their seller homepage or trying to subscribe
+to a category. 
+<P>
+The following section contains two form fields. 
+The login screen is where bidders log in to 
+private lots for which they have permission. This is the 
+header that appears above the login form and the footer 
+that appears below it. 
+<BR>
+<BLOCKQUOTE>
+	  <B> >>> Login Screen Header:</B><BR>
+	      (This is the header that will appear at the top of the login page for
+	      private lots)	
+<P>
+	  <B> >>> Login Screen Footer:</B><BR>	
+ 	      (This is the footer that will appear at the bottom of the login page
+	      for private lots)
+</BLOCKQUOTE>
+<P>
+	  To save and enable the changes that you made on this page you have to 
+	  click on the <B>"Update Login"</B> button once. 	
+</FONT>
+</TD>
+</TR>
+
+<!-- END LOGIN TEXT HEADER
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<!-- BEGIN LIST STATUS MESSAGES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-LISTSTATUSMESSAGES">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>List Status Messages</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This page allows you to edit some of the text that displays the
+status of lots:
+<P>
+<B>TEXT FIELD: Go to category page</B><BR> 
+(this is the text you will find hyperlinked to the category page)
+<P>
+<B>TEXT FIELD: No Open Lots</B><BR>
+(This is the text that will be displayed if there are no open lots
+in a category)
+<P>
+<B>TEXT FIELD: No featured lots</B><BR>
+(This is the text that will appear if there are no featured lots
+in a category)
+<P>
+<B>TEXT FIELD: No lots opening today</B><BR>
+(This is the text that will appear if there are no lots opening today)
+<P>
+<B>TEXT FIELD: No lots closing today</B><BR>
+(This is the text that will appear if there are no lots closing today)
+</TD>
+</TR>
+
+<!-- END LIST STATUS MESSAGES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<!-- BEGIN BIDDING E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-BIDDINGEMAILS">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Bidding E-Mails</B></FONT>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This section allows you as the admin to edit some of the automated e-mail functions. Below is an explanation of 
+the fields and options found on this page.
+<P>
+<LI><B>TOP TABLE:</B><BR>
+This table allows you to change the default FROM NAME and default REPLY TO E-MAIL when bid status e-mails are sent 
+out from the system. 
+<P>
+<LI><B>OUTBID: (need to raise bid to win)</B><BR>
+(This section allows you to edit the e-mail message that a user will receive when they have been outbid in a lot 
+that they have placed a bid on and need to raise their bid in order to win)
+<P>
+You can edit the subject line of the message and all other text in the body of the message with the exception of:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;<P>
+
+Lot: #lotName#<P>
+
+&#60;CFIF getBids.bidAuto EQ 1&#62;Your maximum bid: &#60;CFELSE&#62;Your bid: &#60;/CFIF&#62;#LSCurrencyFormat(getBids.bidPriceMaximum,"local")#
+Your requested quantity: #getBids.bidQuantity#
+<P>
+To increase your bid, go to:
+#systemURL#/lot.cfm?lotID=#Form.lotID#
+&#60;/CFOUTPUT&#62;
+</FONT></TT>
+<P>
+<LI><B>LOSING BID WINS AGAIN:</B><BR> 
+(former losing bid is now a winning bid) (this section allows you to edit the e-mail message that a user
+will receive if their former losing bid is now a winning bid)
+<P>
+You can edit the subject of the e-mail message along with the body
+of the message, but do not edit the following text in the body:
+<P>
+<FONT SIZE=3><TT>
+<CFOUTPUT>
+Lot: #lotName#<P>
+
+Your bid: #LSCurrencyFormat(getWinningBids.bidPriceMaximum,"local")#<BR>
+Requested quantity: #getWinningBids.bidQuantity#<BR>
+Quantity won at current price:  #getWinningBids.bidQuantityWin#
+<P>
+To increase your bid, go to:<BR>
+#systemURL#/lot.cfm?lotID=#Form.lotID#
+&#60;/CFOUTPUT&#62;
+</TT></FONT>
+<P>
+<B>N.B.</B> There are two types of messages, one of a fixed bid, and one
+for an auto bid, the user will receive one of the messages, depending
+on what type of bid the user placed. 
+<P>
+
+
+<LI><B>LOSING QUANTITY</B><BR> (will only win partial quantity with current bid)
+(this section allows you edit the e-mail message that a user will
+receive if they will only win a partial quantity of the lot with 
+their current bid)
+<P>
+You can edit the subject line of the e-mail message along with 
+the body message, but do not edit the following text:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;<BR>
+Lot: #lotName#<P>
+
+Your bid: #LSCurrencyFormat(getBids.bidPriceMaximum,"local")#
+Your requested quantity: #getBids.bidQuantity#
+Quantity you will win with this bid: #newBidQuantityWin#
+<P>
+To increase your bid, go to:<BR>
+#systemURL#/lot.cfm?lotID=#Form.lotID#
+&#60;/CFOUTPUT&#62;
+</TT></FONT>
+and
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;<BR>
+Lot: #lotName#
+<P>
+Current bid: #LSCurrencyFormat(getWinningBids.bidPrice,"local")#<BR>
+Maximum bid: #LSCurrencyFormat(getWinningBids.bidPriceMaximum,"local")#<BR>
+Initial bid: #LSCurrencyFormat(getWinningBids.bidPriceInitial,"local")#
+<P>
+Requested quantity: #getWinningBids.bidQuantity#<BR>
+Quantity won at current price:  #getWinningBids.bidQuantityWin#
+<P>
+#systemURL#/lot.cfm?lotID=#Form.lotID#
+&#60;/CFOUTPUT&#62;
+</FONT></TT>
+<P>
+
+<LI><B>AUTO BID:</B><BR>(Your bid was automatically increased)
+(this section allows you to edit the e-mail message a user will 
+receive if one of their bids was automatically raised via the 
+auto-bid feature)
+<P>
+You may edit the subject of the message and the body of the 
+message but do not edit the following lines:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;
+Lot: #lotName#
+<P>
+Current bid: #LSCurrencyFormat(newBidPrice,"local")#<BR>
+Previous bid: #LSCurrencyFormat(getWinningBids.bidPrice,"local")#<BR>
+Maximum bid: #LSCurrencyFormat(getWinningBids.bidPriceMaximum,"local")#<BR>
+Initial bid: #LSCurrencyFormat(getWinningBids.bidPriceInitial,"local")#
+<P>
+Requested quantity: #getWinningBids.bidQuantity#<BR>
+Quantity won at current price:  #getWinningBids.bidQuantityWin#
+<P>
+#systemURL#/lot.cfm?lotID=#Form.lotID#
+&#60;/CFOUTPUT&#62;
+</TT></FONT>
+<P>
+In order to accept all the changes that you have made on this page and deploy them across the auction
+website, click on the <B>"Update E-Mail Options"</B> button.
+</TD>
+</TR>
+
+<!-- END BIDDING E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<!-- BEGIN CLOSING E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-CLOSINGEMAILS">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Closing E-Mails</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This page will allow you as the admin to edit and administer the
+e-mails that are sent out to users as a result of closing lots. 
+Below is a detailed explantion of each of the sections contained on this page.
+<P>
+<LI><B>TOP TABLE:</B><BR>
+The top table allows you to determine the default FROM NAME and 
+default Reply-to-E-Mail that will appear in all e-mail messages
+to users and the Admin regarding the closing of lots. 
+<P>
+<LI><B>LOT CLOSED:</B><BR>
+(this section allows you to edit the e-mail message that will be sent out to the seller and the admin informing 
+them that a lot has closed) You can choose to edit the subject of the message but do not 
+edit the following text in the subject message:
+<P>
+<FONT SIZE=3><TT>Lot #lotID# has closed</TT></FONT>
+<P>
+You can also choose to edit the body of the message but do not edit the following text in the body in for the 
+message without list of winning bidders:
+<P>
+<FONT SIZE=3><TT>&#60;CFOUTPUT&#62;#getLotInfo.lotName#
+<P>
+#systemURL#/lot.cfm?lotID=#lotID#&#60;/CFOUTPUT&#62;
+</TT></FONT>
+<P>
+Also do not edit the following text in the body of the message that is sent with the list of winning bidders.
+<P>
+&#60;CFOUTPUT&#62;Bid: #LSCurrencyFormat(getAdminWinners.bidPrice,"local")#, Quantity: #getAdminWinners.bidQuantityWin#<BR>
+#getAdminWinners.lastName#, #getAdminWinners.firstName#<BR>
+#getAdminWinners.email#
+<P>
+&#60;/CFOUTPUT&#62;
+<P>
+<LI><B>LOT CLOSED WITH NO BIDS (email to admin/seller)</B>
+<P>
+(this section will allow you to edit the e-mail message that is sent to the administrator and the seller telling 
+them that a lot has closed with no bids being placed on that lot)
+<P>
+You can edit the subject of the message but do not edit the following text in the subject:
+<P>
+<FONT SIZE=3><TT>
+#lotID#
+</TT></FONT>
+<P>
+You can also edit the body of the message but do not edit or change any of the following text in the body of the 
+message:
+<P>
+<FONT SIZE=3><TT>
+
+&#60;CFOUTPUT&#62;#getLotInfo.lotName#
+<P>
+#systemURL#/lot.cfm?lotID=#lotID#<BR>
+&#60;/CFOUTPUT&#62;
+</TT></FONT>
+<P>
+<LI><B>WINNER: (you won the bidding)</B><BR>
+This section allows you to edit the e-mail message that a bidder receives for each lot that he has won.
+<P>
+You can edit the subject of the e-mail message and the body of the message but do not edit the following text in 
+the body of the message:
+<P><FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;Lot: #getLotInfo.lotName#
+<P>
+Bid: #LSCurrencyFormat(getLosingBids.bidPrice,"local")#<BR>
+Quantity: #getLosingBids.bidQuantity#<P>
+#systemURL#/lot.cfm?lotID=#lotID#<BR>
+&#60;/CFOUTPUT&#62;
+
+</TT></FONT>
+<P>
+
+<B>************</B>
+<P>
+
+     The following emails are only used if the option to extend
+     the lot closing time has been turned on in the Closing
+     Options page for the No Bids options. This includes
+     extended the closing time and e-mailing the lot contact
+     person. If these options are not checked and the lot closes
+     with no bids, then the above Lot closed with no bids
+     email will be sent instead
+
+<P>
+<B>************</B>
+
+<LI><B>NO BIDS (Closing time extended - to admin/seller)</B><BR>
+This section will allow you to edit the e-mail message that will inform the admin and the seller that no bids have 
+been placed on a lot and that the closing time of that lot has been extended. 
+<P>
+You can edit the subject of the message but do not edit the following text:
+<P><FONT SIZE=3><TT>
+#getCheckList.lotID#
+</TT></FONT>
+<P>
+You can also edit the body of the message but do not edit any of the following text contained in the body:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;
+<P>
+#getCheckList.lotID#.
+<P>
+Lot: #getCheckList.lotName#
+<P>
+
+#LSDateFormat(getCheckList.lotCloseDateTime,dateFormatDisplay)# / #LSTimeFormat(getCheckList.lotCloseDateTime,timeFormatDisplay)#<P>
+  TO: #LSDateFormat(newLotCloseDateTime,dateFormatDisplay)# / #LSTimeFormat(newLotCloseDateTime,timeFormatDisplay)#
+<P>
+#Evaluate(getCheckList.lotNoBidsStayOpenTimes + 1)# time(s). It may be extended a total of #noBidsStayOpenTimes# time(s).
+<P>
+#systemURL#/lot.cfm?lotID=#getCheckList.lotID#<BR>
+&#60;/CFOUTPUT&#62;
+</FONT></TT>
+<P>
+
+<LI><B>NO BIDS:</B><BR>
+Closing time not extended as maximum extensions has been reached (to admin/seller)
+<P>
+This section will allow you the admin to edit the e-mail message that a seller and the admin receive after a lot 
+has closed and the number of times that it has extended has reached it's limit. 
+<P>
+You can edit the subject of the message but do not edit the following text: 
+<P>
+<FONT SIZE=3><TT>
+#lotID#
+</TT></FONT>
+<P>
+You can also edit the body message of the e-mail but do not edit any of the following text within the body:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;
+<P>
+#getCheckList.lotID#.
+<P>
+
+#noBidsStayOpenTimes# time(s).
+<P>
+#systemURL#/lot.cfm?lotID=#getCheckList.lotID#&#60;/CFOUTPUT&#62;
+
+</TT></FONT>
+<P>
+In order to accept any of the changes that you have made on this page you must click on the <B>"Update E-Mail Options"</B> Button.
+</FONT>
+</TD>
+</TR>
+
+<!-- END CLOSING E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<!-- BEGIN DAILY STATUS E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-DAILYSTATUSEMAILS">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Daily Status E-Mails</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This page will allow you as the admin to define and edit the e-mail messages that you can have sent out to bidders
+according to their requests. 
+<P>
+The daily status e-mail is designed to do the following:
+<P>
+- E-Mail the status of bids on all open and recently closed lots<BR>
+- E-Mail the list of new items posted to the categories each user subscribes to. 
+<P>
+<B>N.B. TO RUN THE DAILY STATUS E-MAIL SCRIPT THAT WILL SEND OUT THE E-MAILS: Use the following URL:</B>
+<BLOCKQUOTE>
+     <FONT SIZE=4><TT>http://yourdomain.com/yourdirectory/program/dailyStatus.cfm?emazedaily</TT></FONT>
+</BLOCKQUOTE>
+<P>
+On the actual Daily Status E-Mails page, your domain and directory will be filled in automatically. 
+<P>
+The first table found on this page us used to configure the FROM NAME, the REPLY-TO- E-MAIL, and the SUBJECT of the
+e-mail message that will be sent out to bidders regarding the status of their bids. 
+<P>
+The next portion of the page allows you to define what the daily status e-mail message will contain. 
+<P>
+<B>Open lost user has bid on []</B><BR> 
+(turning this on will have the system include a list of lots
+that the bidder has bid on) (this can be turned on or off, and
+the text heading for the open lots can edited in the text
+field under the column named "Text Heading")
+<P>
+<B>Lots user has bid on closed since last e-mail []</B><BR>
+(turning this on will have the system include a list of lots
+that the user has bid on but have closed since the last status
+e-mail.) (this feature can be turned on or off and the text heading
+can be edited for this section)
+<P>
+<B>Open lots user is watching []</B><BR>
+(turning this on will have the system include a list of lots
+that the user has chosen to watch)(This feature can be 
+turned on or off and the text header can be edited for this
+section)
+<P>
+<B>Lots user is watching closed since last e-mail []</B><BR>
+(turning this on will have the system include a list of lots
+that the user has chosen to watch but have closed since the
+last status e-mail) (This feature can be turned on or off
+and the header text can be edited for this section)
+<P>
+<B>New lots in subscribed categories []</B><BR>
+(turning this on will have the system include a list of new
+lots that have appeared in a category that the user is 
+subscribed to) (This feature can be turned on or off
+and the header text can be edited for this section)
+<P>
+<B>FIELD HEADINGS</B><BR>
+This section allows you to edit the text that will be used
+as field headings within the daily status the e-mail. 
+<P>
+<B>HEADER OF DAILY STATUS E-MAIL</B><BR>
+This is the text that will appear as the header found at the
+top of the daily status e-mail message.
+<P>
+<B>FOOTER OF DAILY STATUS E-MAIL</B><BR>
+This is the text that will appear as the footer found at the
+bottom of the daily status e-mail message. You can edit any
+of the text but do not edit the following in the footer:
+<P>
+<FONT SIZE=3><TT>&#60;CFOUTPUT&#62;#systemURL#&#60;/CFOUTPUT&#62;</TT></FONT>
+</FONT>
+</TD>
+</TR>
+
+<!-- END DAILY STATUS E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<!-- BEGIN RESERVE E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-RESERVEEMAILS">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Reserve E-Mails</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This section allows you to edit the e-mail messages that will be sent out to the admin and the sellers regarding 
+lots meeting reserve prices. Below is a detailed explanation of the sections found on this page:
+<P>
+<LI><B>RESERVE PRICE MET:</B><BR>
+(This is the e-mail message that will be sent out to the admin or the seller that the reserve price on a lot has 
+been met). You can edit the text that is found in the subject line as well as the text in the body of the message, 
+but do not edit the following text:
+<P>
+<FONT SIZE=3><TT>
+
+&#60;CFOUTPUT&#62;
+<P>
+#LSCurrencyFormat(lotReservePrice,"local")#
+<P>
+lot #Form.lotID#.
+<P>
+Lot: #lotName#
+<P>
+#systemURL#/lot.cfm?lotID=#Form.lotID#
+&#60;/CFOUTPUT&#62;
+
+</TT></FONT>
+<P>
+
+<B>RESERVE PRICE NOT MET</B><BR> 
+(This is the e-mail message that will be sent out to the admin or the seller after a lot closes but the reserve 
+price has not been met for that lot)
+<P>
+You can edit the text found in the subject line of the message but do not edit the following text in the subject:
+<P>
+<FONT SIZE=3><TT>
+#lotID#
+</TT></FONT>
+<P> 
+You can also edit the text in the body of the message, but do not edit the following:
+<P>
+
+<FONT SIZE=3><TT>
+
+&#60;CFOUTPUT&#62;<BR>
+#getLotInfo.lotName#
+<P>
+Highest Bid: #LSCurrencyFormat(getLotInfo.nextBidMinimum - getLotInfo.lotBidIncrement,"local")#<BR>
+Reserve Price: #LSCurrencyFormat(getLotInfo.lotReservePrice,"local")#
+<P>
+#systemURL#/lot.cfm?lotID=#lotID#&#60;/CFOUTPUT&#62;
+
+</TT></FONT>
+<P>
+<B>RESERVE PRICE MET - LOSER</B><BR>
+(This is the e-mail message that will be sent to a losing bidder once the reserve price on a lot is met)
+<P>
+You can edit the text in the subject line as well as the text in the body of the message, but do not edit the following
+text contained within the body:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;Lot: #lotName#
+</TT></FONT>
+<P>
+<B>LOT CLOSED - WINNER</B><BR>
+(This e-mail message is sent out to a bidder that has a winning
+bid in a lot that has closed, but the bid still does not meet the
+reserve price set by the seller for that lot)
+<P>
+You can edit the text in the subject line of the message, and
+you can edit the text that is found in the body of the message, 
+but do not edit the following text:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;<BR>
+Lot: #getLotInfo.lotName#
+<BR>
+Bid: #LSCurrencyFormat(getWinningBids.bidPrice,"local")#<BR>
+Quantity: #getWinningBids.bidQuantity#<BR>
+<BR><BR>
+#systemURL#/lot.cfm?lotID=#lotID#&#60;/CFOUTPUT&#62;
+</TT></FONT>
+<P>
+<B>LOT CLOSED - LOSER</B><BR>
+(This e-mail message is sent out to bidders informing them 
+that the lot they bid on is now closed and that no bids during
+the auction session met the reserve price so the lot is now
+closed)
+<P>
+You can edit the text in the subject line as well as the 
+text in the body of the message but do not edit the following
+text in the body:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;<BR>
+Lot: #getLotInfo.lotName#
+<P>
+Bid: #LSCurrencyFormat(getLosingBids.bidPrice,"local")#<BR>
+Quantity: #getLosingBids.bidQuantity#<BR>
+<P>
+#systemURL#/lot.cfm?lotID=#lotID#</CFOUTPUT>
+</TT></FONT>
+<P>
+The following e-mails are only used if the option to extend the lot closing time has been turned on in the Closing 
+Options page for the Reserve Not Met option. This includes extended the closing time and emailing the lot contact 
+person. If these options are not checked and the lot closes with the reserve price not being met, then the above 
+Reserve Price Not Met email will be sent instead
+<P>
+
+<B>CLOSING TIME EXTENDED - WINNER</B><BR>
+(This is the e-mail message that a bidder will receive if he has the high bid on a lot but the reserve price has 
+not been met on the lot, and therefore the closing time on the lot has been extended)
+<P>
+You can edit the text in the subject line of the message as well as the body of the message but do not edit the 
+following text in the body:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;
+Lot: #getCheckList.lotName#
+<P>
+New closing time: #LSDateFormat(newLotCloseDateTime,dateFormatDisplay)# / #LSTimeFormat(newLotCloseDateTime,timeFormatDisplay)#<BR>
+Bid: #LSCurrencyFormat(getReserveWinner.bidPrice,"local")#
+<P>
+#systemURL#/lot.cfm?lotID=#getCheckList.lotID#&#60;/CFOUTPUT&#62;
+
+</TT></FONT>
+<P>
+<B>CLOSING TIME EXTENDED - LOSER</B><BR>
+(This is the e-mail message that a bidder will receive if 
+he does not have a winning bid on a lot but the reserve price
+has not been met on the lot, and therefore the closing time 
+on the lot has been extended)
+<P>
+You can edit the text in the subject line of the message as 
+well as the text found in the body of the message but do 
+not edit the following text in the body of the message:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;<BR>
+Lot: #getCheckList.lotName#
+<P>
+New closing time: #LSDateFormat(newLotCloseDateTime,dateFormatDisplay)# / #LSTimeFormat(newLotCloseDateTime,timeFormatDisplay)#<BR>
+Bid: #LSCurrencyFormat(getReserveLoser.bidPrice,"local")#
+<P>
+#systemURL#/lot.cfm?lotID=#getCheckList.lotID#&#60;/CFOUTPUT&#62;
+</TT></FONT>
+<P>
+<B>RESERVE NOT MET - CLOSING TIME EXTENDED (to admin/seller)</B><BR>
+(This is the e-mail message that the admin and the seller
+will recieve to notify the seller of a lot and the admin 
+that the reserve price on a certain lot has not been met
+and the closing time has been extended)
+<P>
+You can edit the text of the subject line but do not edit
+the following text in the field:
+<P>
+<FONT SIZE=3><TT>
+#getCheckList.lotID#
+</TT></FONT>
+<P>
+You can also edit the body of the message but do not edit any of the following text in the body:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;
+<P>
+#LSCurrencyFormat(getCheckList.lotReservePrice,"local")#
+<P>
+FROM: #LSDateFormat(getCheckList.lotCloseDateTime,dateFormatDisplay)# / #LSTimeFormat(getCheckList.lotCloseDateTime,timeFormatDisplay)#<BR>
+  TO: #LSDateFormat(newLotCloseDateTime,dateFormatDisplay)# / #LSTimeFormat(newLotCloseDateTime,timeFormatDisplay)#<BR>
+<BR>
+It has now been extended #Evaluate("#getCheckList.lotReserveStayOpenTimes# + 1")# time(s). It may be extended a total of #reserveStayOpenTimes# time(s).
+<P>
+#systemURL#/lot.cfm?lotID=#getCheckList.lotID#&#60;CFOUTPUT&#62;
+
+</TT></FONT>
+<P>
+<B>RESERVE NOT MET - CLOSING TIME NOT EXTENDED AS MAXIMUM EXTENSIONS HAS BEEN REACHED (to admin/seller)</B><BR>
+(This is the e-mail message that an admin and seller will
+receive if a lot has closed due to its maximum number
+of extensions having expired and no reserve price being met)
+<P>
+You can edit the text of the subject line but do not
+edit the following text:<P>
+<FONT SIZE=3><TT>
+#lotID#
+</TT></FONT><P>
+You may also choose to edit the text in the body of the 
+message but do not edit the following text:
+<P>
+<FONT SIZE=3><TT>
+&#60;CFOUTPUT&#62;
+<P>
+#LSCurrencyFormat(getCheckList.lotReservePrice,"local")# has not been met for lot #getCheckList.lotID#.
+<P>
+Lot: #getCheckList.lotName#
+<P>
+#reserveStayOpenTimes# time(s).
+</TT></FONT>
+<P>
+In order to complete any of the changes that you have made on this page you must click on the <B>"Update Reserve E-Mail"</B> button.
+</TD>
+</TR>
+
+<!-- END RESERVE E-MAILS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<!-- BEGIN BID ERROR MESSAGES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-BIDERRORMESSAGES">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Bid Error Messages</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+This page is dedicated to adjusting the text on any bid error that appear if there is an error after the bidder 
+has submitted his bid. Below is a detailed explanation of each field:	
+<P>
+	 <B> >>> Lot Closed Title:</B><BR> 
+             (This is the error title text that will appear if the 
+	     bid is submitted and the lot is closed)
+<P>	 
+	 <B> >>> Lot Closed Body:</B><BR> 
+             (This is the error body text that will appear if the bid
+	     submitted and the lot is closed)
+<P>
+	 <B> >>> E-Mail Address Not Verified Title:</B><BR>  
+ 	     (This is the error title text that will appear if the user 
+	     has submitted his bid but has not verified his e-mail address with the system)
+<P>	  
+	 <B> >>> E-Mail Address Not Verified Body:</B><BR>  
+	     (This is the error body text that will appear if the user has 
+	     submitted his bid but has not verified his e-mail address with the system)
+<P>
+	 <B> >>> Bad Bid Title:</B><BR>  
+	     (This is the error title text that will appear if the user has entered a bid 
+	     but the system encountered some problems regarding the bid)
+<P>
+         <B> >>> Bad Bid Header:</B><BR> 
+	     (This is the error text that will appear to let the 
+             user know that there have been errors in the bid and
+	     that they are listed below)
+<P>
+	 <B> >>> Bad Bid Footer:</B><BR> 
+	     (This is the error text that will appear at the bottom 
+	     of the page if there is an error with the bid)
+<P>
+	 <B> >>> Bad Bid Body:</B><BR> 
+	     (This is the error body text that will appear if the user has entered a bid 
+	     but the system encountered some problems regarding the bid)
+<P>	 	
+         <B> >>> Bidder Banished Title:</B><BR>  
+	     (This is the error title text that will appear if the user has been banished 
+	     as a bidder)
+<P>
+	 <B> >>> Bidder Banished Body:</B><BR>  	
+             (This is the error body text that will appear if the user has been banished
+	     as a bidder)
+<P>
+	 <B> >>> Bad Cookie:</B><BR>  
+	     (This is the error text that will appear if the bidder is using a bad cookie)
+<P>	 
+	 <B> >>> Bad Login:</B><BR> 
+	     (This is the error text that will appear if the bidder enters incorrect username
+	     and password information)
+<P>
+	 <B> >>> Login Name Blank:</B><BR>  
+	     (This is the error text that will appear if the bidder leaves the username and/pr
+	     password fields empty)
+<P>
+	 <B> >>> Link to Register When Bad Login []:</B><BR> 
+	     (If this option is turned on, and there is a bad bid,
+	     because the bidder is not a registered user, the system
+	     will provide a link to the registration area, and will
+	     also keep the bid information that was entered by the user
+	     on the first try, in memory)
+<P>
+	 <B> >>> Link Display To Register:</B><BR> 
+             (This is the text that will accompany the resulting
+	     page if the above (Link to Register When Bad Login)
+	     choice is turned on.)
+<P>
+	 <B> >>> Link Display to Re-Bid:</B><BR> 
+	     (this is the link text that will appear asking the
+	     user to resubmit tbeir bid)
+<P>	
+	 <B> >>> Bid Amount Field Empty:</B><BR>  
+	     (This is the error text that will appear if the bidder leaves the bid amount field
+	     empty)
+<P>	 
+	 <B> >>> Bid Amount Entered Too Low:</B><BR>  
+	     (This is the error text that will appear if the bidder submits a bid that is too low 
+	     to meet the requirements set out by the seller or by default in the lot)
+<P>
+	 <B> >>> Increment Amount Incorrect:</B><BR> 
+	     (Depending on how the bid increment amount has been set (multiple or integer) - this 
+	     error text will appear if the bidder enters an incorrect bid increment in either case)
+<P>
+	 <B> >>> Bid Quantity Amount Empty:</B><BR> 
+	     (This is the error text that will appear if the bidder leaves the quantity of items being
+	     bid on empty)
+<P>
+	 <B> >>> Bid Quantity Amount Zero:</B><BR> 
+	     (This is the error text that will appear if the bidder enters a Bid Quantity of "0")
+<P>	 
+	 <B> >>> Bid Quantity Greater than Quantity:</B><BR> 
+	     (This is the error text that will appear if the bidder enters a Bid Quantity that
+	     is greater than the quantity available on the lot)
+<P>
+	 <B> >>> Bid Quantity Greater than Maximum:</B><BR> 
+	     (This is the error text that will appear if the bidder enters a Bid Quantity that
+	     is greater than the established maximum quantity for the lot)
+<P>
+	 <B> >>> Auto Bid Max Price Empty:</B><BR>  
+	     (This is the error text that will appear if the bidder selected the auto-bid 
+	     feature but did not specify a maximum price for the auto-bid feature to continue
+	     bidding to.)
+<P>
+	 <B> >>> Auto Bid Max Price Too Low:</B><BR>  
+	     (This is the error text that will appear if the bidder selects the auto-bid feature
+	     but enters a lower maximum bid for the auto-bid to stop at, than the next bid increment on 
+	     the lot)
+<P>
+	 <B> >>> Auto Bid Increment Not Met:</B><BR>  
+	     (Same as above)
+<P>
+	 <B> >>> Updated Bid Amount Invalid:</B><BR> 
+	     (This is the error text that will appear if the bidder attempts to modify their bid
+	     by adjusting it to a lower value)
+<P>
+	 <B> >>> Updated Bid Amount Too Low:</B><BR> 
+	     (same as above)
+
+In order for the changes that you made on this page to take place you have to click on the "Update Error Messages" Button once.
+</FONT>
+</TD>
+</TR>
+
+<!-- END BID ERROR MESSAGES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+<!-- BEGIN SYSTEM VARIABLES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-SYSTEMVARIABLES">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>System Variables</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+The system options are the basic system paths, URLs and other settings used to run Emaze Auction. These include 
+the same values you entered upon initializing Emaze Auction. To change any of the settings, you must check the 
+checkbox for the change to take effect. (This does not apply to the two cookie checkboxes.) 
+The domain name is the domain name and extension or the IP address. It is used to write a permanent cookie for 
+users who choose the automatic login via cookie option. The domain name is also used for temporary cookies to 
+ensure other servers cannot read them. If you are entering a domain name, be sure to include a period (.) before 
+the domain name, e.g., ".emaze.com" . However, if you are entering an IP address, do not include the period, e.g., 
+"127.0.0.1" . 
+<P>
+
+<B>Full path to Emaze Auction directory</B><BR> 
+This is the path to the EmazeAuction directory, or whatever you named it. The path is from your server's root 
+directory, e.g. c:\WebSite\htdocs\EmazeAuction. There should be no trailing slash at the end. 
+<P>
+<B>URL to Emaze Auction directory</B><BR> 
+This is the URL to the EmazeAuction directory, or whatever you named it. It should be the full URL, e.g., 
+http://www.yourdomain.com/EmazeAuction . There should be no trailing slash at the end. 
+<P>
+<B>Cold Fusion datasource of database </B><BR>
+This is the name of the Cold Fusion datasource as determined in the Cold Fusion Administrator. 
+<P>
+<B>Email server for sending emails</B><BR>
+This is the mail server to use when sending emails from Emaze Auction. 
+<P>
+<B>Logout URL</B><BR> 
+This is the URL where Admin is sent after logging out of the Emaze Auction admin screens. Logging out deletes 
+the cookie from the admin's browser. There is currently no logout feature for normal users. 
+<P>
+<B>Allow automatic bidder login via permanent cookie</B><BR> 
+This enables users to bid on lots without entering their username and password. The permanent cookie stores the 
+bidder's unique ID and username. Both are harmless without the proper password. (If the user changes his/her 
+username, Emaze Auction will update the cookie with the new username.) 
+<P>
+<B>Use temporary cookie</B><BR> 
+This enables bidders to submit multiple bids without re-entering username and password after first bid. This is a 
+temporary cookie that is automatically deleted when the browser session ends. 
+<P>
+<B>Domain name (for cookie login: domain.extension)</B><BR> 
+The domain name ensures that only your server can read users' cookies. The domain name should be simply 
+"domain.com," e.g., emaze.com 
+</FONT>
+</TD>
+</TR>
+
+<!-- END SYSTEM VARIABLES
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<!-- BEGIN BODY TAG / DATE TIME
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+
+
+<TR>
+<TD ALIGN=MIDDLE COLSPAN=3 BGCOLOR=#333333><A NAME="SYSTEM-BODYTAGDATETIME">
+<FONT FACE=ARIAL SIZE=-1 COLOR=#FFFFFF><B>Body, Tag, Date/Time</B></FONT>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3 ALIGN=RIGHT>
+<DIV CLASS="area">
+<FONT FACE=VERDANA SIZE=-1><B>
+<A HREF="#TOP">Back To The Top</A>
+</B></FONT>
+</DIV>
+</TD>
+</TR>
+
+<TR BGCOLOR=#FFFFFF>
+<TD COLSPAN=3>
+<FONT FACE=VERDANA SIZE=-1>
+Choose the settings for the body tag used throughout all of the screens in the user interface. 
+The navigation bar options are for the background colors used in the navigation bar table as well 
+as the font color. They are used in the navigation bar, specials table, and user options tables.
+For all of the colors, either choose from the existing list of colors from the select list, or 
+enter a color in the text field. Be sure to check the appropriate radio button to signal which 
+option you are choosing. After you choose a color, the next time you reload the screen, it will be 
+listed in the text portion. Below is a description of the body tag elements:<P>
+
+<B>Term Definition</B><BR> 
+<B>bgcolor:</B>  Background color. This is a solid color, normally white.<BR>
+<B>text:</B>  Color of normal text, i.e., not links or text within <FONT COLOR> tags. Normally black. <BR>
+<B>link:</B>  Color of link that has not yet been clicked on. Typically blue.<BR> 
+<B>alink:</B>  Color of link while you are clicking it. Normally purple.<BR>
+<B>vlink:</B>  Color of link after you have clicked on it, usually purple.<BR>
+<B>background:</B>  Background image used instead of bgcolor (when background image is found). Use the full URL.<BR> 
+<B>other:</B>  Body tags can have some additional options, such as margin settings. Just enter the full settings.<BR> 
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

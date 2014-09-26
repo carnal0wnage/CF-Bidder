@@ -1,0 +1,24 @@
+<CFSETTING ENABLECFOUTPUTONLY="Yes">
+<CFSET titleVerify = "Verify User Email">
+<CFSET titleCategoryBad = "Bad Category">
+<CFSET titleLotBad = "Bad Lot">
+<CFSET titleLotPrivate = "Private Lot">
+<CFSET titleHelp = "Help!">
+<CFSET titleUserEdit = "Edit User">
+<CFSET titleUser = "Register">
+<CFSET titleBidStatus = "Bid Status">
+<CFSET titleSearch = "Search">
+<CFSET titleAllLotsFeatured = "All Featured Lots">
+<CFSET titleAllLotsOpening = "All Lots Opening Today">
+<CFSET titleAllLotsClosing = "All Lots Closing Today">
+<CFSET titleAllLots = "All Lots">
+<CFSET titleBidResult = "Bid Result">
+<CFSET titleCategorySubscribe = "Subscribe to a Category">
+<CFSET titleLotWatch = "Watch a Lot">
+<CFSET titleCategoryListAll = "List All Categories">
+<CFSET titleGetPassword = "Retrieve Password">
+<CFSET titleBidDescriptionStore = "Lot ##lotID## - Bid Description">
+<CFPARAM NAME=lotID DEFAULT="1">
+<CFSET titleBidDescription = "Lot #lotID# - Bid Description">
+<CFIF IsDefined(title)><CFSET title = Evaluate(title)></CFIF>
+<CFSETTING ENABLECFOUTPUTONLY="No">

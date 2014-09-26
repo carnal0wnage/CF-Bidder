@@ -1,0 +1,1 @@
+This is an automated email to notify you that the reserve price of #LSCurrencyFormat(lotReservePrice,"local")# has been met for lot #Form.lotID#.Lot: #lotName##systemURL#/lot.cfm?lotID=#Form.lotID#

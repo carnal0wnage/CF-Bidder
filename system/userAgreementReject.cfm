@@ -1,0 +1,1 @@
+Sorry you do not wish to accept our user agreement.

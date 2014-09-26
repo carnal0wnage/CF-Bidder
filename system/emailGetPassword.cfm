@@ -1,0 +1,1 @@
+This automated email was sent because you requested that your password be emailed to you from our auction site.<CFIF getPasswordUsername EQ 1>username: #getPassword.username#</CFIF>password: #password##systemURL#

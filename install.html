@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+<TITLE>Emaze Auction: Installation Instructions</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=white>
+
+<H1 ALIGN=center><FONT COLOR=purple FACE=Arial>Emaze Auction 2.1: Installation</FONT></H1>
+
+Thanks for choosing Emaze Auction! We encourage you to periodically check out the Emaze Software site at http://www.emaze.com for updates and bug fixes.
+<P>
+If you have any questions, please let us know. You can email us at <A HREF="mailto:sales@emaze.com?subject=Emaze Forums">sales@emaze.com</A>. If you discover a bug or want to request that we add a feature, change a feature, or make any other change which will make the world a better place, please email us at <A HREF="mailto:support@emaze.com">support@emaze.com</A>.
+<P>
+<BLOCKQUOTE>
+<B>Copyright and License Agreement:</B><BR>
+Emaze Auction is the sole property of Emaze Software Corporation. This license entitles you to install Emaze Auction one time on a single server. Additional installations cost 50% of the normal price. (Discounts are given for multiple installations. Please contact us at <A HREF="mailto:sales@emaze.com?subject=Emaze Auction licenses">sales@emaze.com</A> for more information.) You do not have permission to resell or distribute Emaze Auction in whole or in part, without the written approval of Emaze Software.
+</BLOCKQUOTE>
+<P>
+
+<H2>Installation</H2>
+
+<OL>
+<LI>Create a directory for Emaze Auction in your webserver's public directory. This can be named EmazeAuction or whatever you wish. For the sake of convenience, we assume you named it <I>EmazeAuction</I>.
+<P>
+<LI>Copy all of the subdirectories within the <I>EmazeAuction</I> directory to the directory you just created on your webserver. There are 6 files you need to copy from the the <I>EmazeAuction</I> directory as well:
+<UL TYPE=disc>
+<LI>Application.cfm
+<LI>initialize.cfm
+<LI>index.cfm
+<LI>category.cfm
+<LI>lot.cfm
+<LI>verify.cfm
+<LI>market.cfm (<I>if you have the classified module</I>)
+<LI>procure.cfm (<I>if you have the procurement module</I>)
+</UL>
+<P>
+<LI>If you are using Microsoft Access 97, copy the database template, <I>emazeauction.mdb</I>, to your webserver. The database can be anywhere you choose. It does not need to be within the <I>EmazeAuction/</I> directory. Rather, it should be outside of your public directory where it cannot simply be accessed via a URL. You are welcome to rename the file to anything you want.
+<P>
+If you do not have Microsoft Access 97, you may use any SQL database. Please email us at support@emaze.com for the file to create the database. We have a script that works for SQL Server versions 6.5 and 7.0. It will probably work with Oracle as well.
+<P>
+<LI>Log into the ColdFusion Administrator and add the <I>emazeauction.mdb</I> database to the list of Cold Fusion datasources. You may name the datasource anything you want. Be sure to check that the datasource is working properly. If you are hosting with an ISP, you will need to have your ISP do this for you since they will not give you access to the ColdFusion Administrator.
+<P>
+<LI>We highly recommend you use the CF Scheduler for closing auctions. Register for the Scheduler to do the following:
+<UL>
+<LI>Run every hour or other time period you choose, depending on how often you close lots.
+<LI>Run http://www.yourdomain.com/EmazeAuction/program/scheduler.cfm
+</UL>
+<P>
+<LI>To initialize Emaze Auction, point your browser to: <I>http://www.yourdomain.com/EmazeAuction/initialize.cfm</I> . Fill in the appropriate fields and submit the form to initialize Emaze Auction.
+<P>
+<LI>If using a database other than Access, run the <I>createdb.cfm</I> script to set up the database. If you did not FTP the <I>createdb.cfm</I> script to your server, be sure to do so. Point your browser to: <I>http://www.yourdomain.com/EmazeAuction/createdb.cfm</I>.
+<P>
+<LI>Delete the <I>EmazeAuction/initialize.cfm</I> file from the server. If necessary, delete the <I>createdb.cfm</I> script as well.
+<P>
+<LI>To set up your auctions, point your browser to the Emaze Auction Admin screens at <I>http://www.yourdomain.com/EmazeAuction/admin/index.cfm</I>.
+<PRE>   username: master
+   password: emaze</PRE>
+We strongly recommend you at least change the password after logging in. Just click on <I>Master</I> in the <I>User</I> section. You should also delete the initialize.cfm file.
+</OL>
+
+<P><HR NOSHADE COLOR=purple SIZE=3><P>
+
+<B>BidFind: </B>Emaze has partnered with BidFind to enable auction sites built with Emaze Auction to be included in BidFind's World Wide Web Auction Search database. For more information and to register your auction site, check out BidFind's site at <A HREF="http://www.emaze.com">http://www.bidfind.com</A> or email <A HREF="mailto:optix@vsn.net">optix@vsn.net</A>.
+<P>
+BidFind works by accessing a designated URL which lists all open lots and the opening bid. The URL to give BidFind is http://www.yourdomain.com/EmazeAuction/program/bidfind.cfm
+
+<P><HR NOSHADE COLOR=purple SIZE=3><P>
+
+<H3>For an overview of how Emaze Auction works, please see <A HREF="help.html">help.html</A>. The help file also contains instructions on what to do <A HREF="help.html#initialize">upon initializing</A> Emaze Auction.</H3>
+
+<P><HR NOSHADE COLOR=purple SIZE=3><P>
+
+<H3>Thanks again for choosing Emaze Auction. We appreciate your support! If you have any questions, please let us know!</H3>
+</BODY>
+</HTML>

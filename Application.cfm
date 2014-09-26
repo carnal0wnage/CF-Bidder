@@ -1,0 +1,16 @@
+<CFSETTING ENABLECFOUTPUTONLY="Yes">
+<CFSET systemPath = "d:/http/yourdomain/emazeauction">
+<CFSET systemURL = "http://www.yourdomain.com/emazeauction">
+<CFSET EAdatasource = "EmazeAuction">
+<CFSET secureSystemURL = "http://www.yourdomain.com/emazeauction">
+<CFSET emailServer = "smtp.yourdomain.com">
+<CFSET systemDomain = ".emaze.com">
+<CFSET encryptionCode = "emazecrypt">
+<CFSET indexTitle = "Emaze Auction">
+<CFSET dateFormatDisplay = "mm/dd/yyyy">
+<CFSET timeFormatTimeZone = "EST">
+<CFSET timeFormatDisplay = "hh:mm tt">
+<CFSET subCategorySeparator = " : ">
+<CFSET indexTemplate = "defaultIndex.cfm">
+<CFSET currentlocale = SetLocale("English (US)")>
+<CFSETTING ENABLECFOUTPUTONLY="No">

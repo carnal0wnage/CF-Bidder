@@ -1,0 +1,29 @@
+<CFSET allowAutoBid = 2>
+<CFSET allowBidFullQuantityOnly = 1>
+<CFSET verifyBidBeforeSubmitting = 2>
+<CFSET displayBidResultAfterBid = 1>
+<CFSET bidLogicOrder = "Bid.bidPriceMaximum DESC, Bid.bidQuantity DESC, Bid.bidEditDateTime">
+<CFSET bidIncrementStrict = 1>
+
+<CFSET bidTextUsername = "Username: ">
+<CFSET bidTextPassword = "Password: ">
+<CFSET bidTextUsernameError = "You must enter a username.">
+<CFSET bidTextPasswordError = "You must enter a password.">
+<CFSET bidTextCookieLogin = "Use automatic cookie login (or enter your username/password below)">
+<CFSET bidTextCurrencySign = "$">
+<CFSET bidTextBid = "Bid: ">
+<CFSET bidTextBidError = "The minimum acceptable bid is ##LSCurrencyFormat(getLot.nextBidMinimum,'local')##">
+<CFSET bidTextQuantity = "Quantity: ">
+<CFSET bidTextQuantityMaximum = "maximum: ">
+<CFSET bidTextQuantityError = "Quantity must be between 1 and ##lotQuantity##">
+<CFSET bidTextQuantityMaximumError = "Quantity must be between 1 and ##lotQuantityMaximum##">
+<CFSET bidTextFullQuantityOnly = "Check to accept full quantity only">
+<CFSET bidTextBidMaximum = "Maximum Bid: ">
+<CFSET bidTextBidMaximumError = "Maximum bid must be at least ##LSCurrencyFormat(getLot.nextNextBidMinimum,'local')##">
+<CFSET bidTextBidAuto = "Automatically increment bid to maintain winning bid status">
+<CFSET bidTextBidMaximumAuto = "(only if choosing auto-bid feature)">
+<CFSET bidButtonClear = "Clear">
+<CFSET bidButtonSubmit = "Submit Bid">
+<CFSET bidButtonPreview = "Preview Bid">
+<CFSET bidButtonReject = "Reject Bid">
+
