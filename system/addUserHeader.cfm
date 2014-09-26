@@ -1,0 +1,1 @@
+Before bidding on a lot, you must first add yourself to the user database. Simply complete the form fields below. You must choose a unique username as well as verify your password to ensure you entered it correctly.<P>

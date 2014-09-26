@@ -1,0 +1,1 @@
+This automated email was sent by Emaze Auction with your registration information.<CFIF emailUsernamePassword EQ 1>Username: #username#Password: #password#</CFIF><CFIF emailUserAgreement EQ 1>#userAgreementText#</CFIF>

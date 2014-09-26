@@ -1,0 +1,1 @@
+This automated email was sent by Emaze Auction to notify you that you submitted a winning bid for this lot.Lot: #getLotInfo.lotName#Bid: #LSCurrencyFormat(getWinningBids.bidPrice,"local")#Quantity: #getWinningBids.bidQuantityWin#Total: #LSCurrencyFormat(getWinningBids.bidPrice * getWinningBids.bidQuantityWin,"local")##systemURL#/lot.cfm?lotID=#lotID#

@@ -1,0 +1,1 @@
+<P>You are now subscribed to the following <CFIF IsDefined("Form.subcategorySubscribe")>category and all its sub-categories of it<CFELSE>category:</CFIF><P><I><CFOUTPUT>#categoryName#</CFOUTPUT></I></P><CFOUTPUT><A HREF="#systemURL#/category.cfm?categoryID=#Form.categoryID#">Return to category page</A>.</CFOUTPUT><P>

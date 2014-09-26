@@ -1,0 +1,12 @@
+<CFSET userList = "username,password,firstName,lastName,email">
+<CFSET userListEdit = "password,email,organization,phone">
+<CFSET userListRequired = "username,password,firstName,lastName,email">
+<CFSET userListUnique = "address">
+<CFSET emailVerifyTwice = 0>
+<CFSET creditCardTypeList = "Visa,MasterCard,American Express,Discover">
+<CFSET creditCardExpirationSelect = 0>
+<CFSET stateSelect = 0>
+<CFSET countrySelect = 0>
+<CFSET userAgreement = 0>
+<CFSET emailUsernamePassword = 0>
+<CFSET emailUserAgreement = 0>
